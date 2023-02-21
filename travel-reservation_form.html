@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Travel reservation form</h1>
+    <h2>*denotes mandatory</h2>
+    <form>
+        Enter your name*:
+        <br>
+        <input type="text" name="name" placeholder="FirstName LastName">
+        <br>
+        Email Address*:
+        <br>
+        <input type="email" name="email" placeholder="EMAIL_ADDRESS">
+        <br>
+        Select Tour Package*:
+        <br>
+        <select name="package" id="">
+            <option value="">--Please select your package--</option>
+            <option value="silver">Silver</option>
+            <option value="gold">Gold</option>
+            <option value="platinum">Platinum</option>
+        </select>
+        <br>
+        Arrival date*:
+        <br>
+        <input type="date" name="date" placeholder="Date">
+        <br>
+        Number of persons*:
+        <br>
+        <input type="number" name="number" placeholder="Person(s)">
+        <br><br>
+        What would you want to avail?*:
+        <br>
+        <input type="checkbox" name="avail" value="Boarding">Boarding
+        <br>
+        <input type="checkbox" name="avail" value="Fooding">Fooding
+        <br>
+        <input type="checkbox" name="avail" value="Sight Seeing">Sight Seeing
+        <br><br>
+        Discount Coupons Code:
+        <br>
+        <input type="text" name="Coupons Code" placeholder="Enter your code here">
+        <br>
+        <br>
+        Terms and conditions*:
+        <br>
+        <input type="radio" name="Term&Cons" value="agree">I agree
+        <input type="radio" name="Term&Cons" value="disagree">I disagree
+        <br>
+        <br>
+        <input type="submit" value="Complete Reservation">
+    </form>
+</body>
+</html>
